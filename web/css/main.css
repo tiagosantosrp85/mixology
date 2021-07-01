@@ -1,0 +1,255 @@
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 50%;
+}
+
+.card {
+  display: flex;
+}
+
+.card .box-image {
+  align-items: center;
+  background-color: #f9f7f7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.card .box-image img {
+  max-width: 100%;
+}
+
+.card .content {
+  flex: 1;
+  margin-left: 32px;
+}
+
+.card .content .title {
+  color: #2f3035;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.card .content .text {
+  color: rgba(47, 48, 53, 0.6);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.prime {
+  background-image: url(../img/fundo1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 563px;
+  padding-top: 22px;
+}
+
+@media (max-width: 556px) {
+  .prime {
+    height: auto;
+    padding-bottom: 40px;
+  }
+}
+
+.prime .header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.prime .header p,
+.prime .header a {
+  color: #222;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 556px) {
+  .prime .header {
+    flex-direction: column;
+  }
+  .prime .header p {
+    margin-top: 32px;
+  }
+}
+
+.prime .introducao h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.prime .introducao p {
+  color: rgba(34, 34, 34, 0.75);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.prime .introducao .btn {
+  align-items: center;
+  background: #f33d01;
+  border-radius: 48px;
+  color: #fff;
+  display: table;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  height: 48px;
+  justify-content: center;
+  line-height: 20px;
+  margin: 0 auto;
+  padding: 14px 38px;
+  text-decoration: none;
+}
+
+.secundo {
+  padding: 100px 0;
+}
+
+.secundo .image {
+  display: block;
+  margin: 0 auto 32px;
+  width: 64px;
+}
+
+.secundo blockquote h3 {
+  color: #2f3035;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  max-width: 560px;
+  text-align: center;
+}
+
+.secundo blockquote cite {
+  color: #86899b;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+}
+
+.third {
+  padding-bottom: 100px;
+}
+
+.third h6 {
+  color: #86899b;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  text-transform: uppercase;
+}
+
+.third h2 {
+  color: #2f3035;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+
+.third .drink {
+  color: rgba(34, 34, 34, 0.75);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 64px;
+}
+
+.third .card:first-of-type {
+  margin-bottom: 40px;
+}
+
+.third .full-image {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .third .row {
+    flex-direction: column;
+  }
+  .third .row .col {
+    width: 100%;
+  }
+  .third h6,
+  .third h2,
+  .third .drink {
+    text-align: center;
+  }
+  .third .full-image {
+    display: block;
+    margin: 72px auto 0;
+  }
+}
+
+.four {
+  padding: 20px 20px 100px;
+}
+
+.four .col {
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .four .col {
+    width: 100%;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+}
+
+footer p {
+  color: #86899b;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+footer p a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}

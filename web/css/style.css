@@ -1,0 +1,106 @@
+/*four começo*/
+
+.four .container {
+  padding-top: 200px;
+}
+
+.balao {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.trevo {
+  display: flex;
+  margin-bottom: 16px;
+  margin-top: 80px;
+}
+
+.wifi {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.quadrado {
+  display: flex;
+  margin-top: 80px;
+}
+
+/*reajuste*/
+
+.row h3 {
+  width: 364px;
+  height: 28px;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 32px;
+}
+
+.box {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background: #f9f7f7;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35px;
+}
+
+/* .row p {
+  color: rgba(34, 34, 34, 0.75);
+  width: 364px;
+  height: 72px;
+  left: 292px;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 32px;
+  margin-top: 16px;
+} */
+
+/*four fim*/
+
+.link {
+  padding-bottom: 60px;
+  text-align: center;
+  padding-top: 169px;
+}
+
+.link p,
+.link a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #86899b;
+}
+
+/* .logo {
+  width: 160px;
+  height: 45px;
+  margin-top: 22px;
+  padding-right: 500px;
+}
+
+.container_introducao {
+  text-align: center;
+  width: 100%;
+  height: 563px;
+}
+
+.container_introducao h1 {
+  width: 560px;
+  height: 96px;
+  padding-left: 395px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.container_introducao {
+  background: url(../img/fundo1.png);
+}
+
+.container_introducao p {
+  line-height: 24px;
+}
+
+.btn {
+} */

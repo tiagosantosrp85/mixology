@@ -1,0 +1,21 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  outline: none !important;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
